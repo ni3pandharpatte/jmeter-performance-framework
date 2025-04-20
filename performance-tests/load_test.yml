@@ -1,0 +1,10 @@
+execution:
+  - scenario: run-jmeter
+    executor: jmeter
+    properties:
+      USERS: 10
+      RAMP_UP: 30
+
+scenarios:
+  run-jmeter:
+    script: test-plan.jmx

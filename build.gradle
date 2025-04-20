@@ -1,0 +1,5 @@
+// build.gradle
+task runPerformanceTest(type: Exec) {
+    workingDir './performance-tests'
+    commandLine 'bzt', 'load_test.yml'
+}
