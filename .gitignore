@@ -1,0 +1,18 @@
+# Node
+node_modules/
+npm-debug.log
+.env
+
+# Gradle
+.gradle/
+build/
+
+# JMeter/Taurus
+*.jtl
+*.log
+bzt.log
+
+# IDEs
+.idea/
+.vscode/
+.DS_Store
